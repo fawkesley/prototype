@@ -7,7 +7,7 @@ returns
 
 The VM's Host only interface IP address is: 192.168.59.103
 
-##Add url and ip to hosts file
+##Add URL and IP to hosts file
 `sudo bash -c "echo '192.168.59.103 proto.nhs.uk' >> /etc/hosts"`
 
 ##Build The Docker Image
