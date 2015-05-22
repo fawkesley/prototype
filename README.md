@@ -4,15 +4,15 @@
 
 [You should have homebrew if you don't already](http://brew.sh)
 
-'brew install boot2docker'
-'boot2docker init'
+`brew install boot2docker`
+`boot2docker init`
 
 ##Get Docker IP Address
 `docker ip`
 
 returns 
 
-The VM's Host only interface IP address is: 192.168.59.103
+`The VM's Host only interface IP address is: 192.168.59.103`
 
 ##Add URL and IP to hosts file
 `sudo bash -c "echo '192.168.59.103 proto.nhs.uk' >> /etc/hosts"`
