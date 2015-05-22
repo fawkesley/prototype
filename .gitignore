@@ -1,0 +1,23 @@
+# Numerous always-ignore files
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+
+# OS or Editor folders
+.DS_Store
+Thunmbs.db
+.cache
+.project
+.settings
+.tmproj
+
+# Folders to ignore
+*node_modules
+*public

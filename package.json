@@ -1,0 +1,20 @@
+{
+  "name": "Prototype",
+  "description": "NHS Prototype",
+  "author": "Tony Yates",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app/server/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nhsalpha/prototype"
+  },
+  "bugs": {
+    "url": "https://github.com/nhsalpha/prototype/issues"
+  },
+  "main": "app/server/index",
+  "dependencies": {
+  }
+}
