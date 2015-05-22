@@ -1,5 +1,12 @@
 #Getting Started...
 
+##Install docker on OSX
+
+[You should have homebrew if you don't already](http://brew.sh)
+
+'brew install boot2docker'
+'boot2docker init'
+
 ##Get Docker IP Address
 `docker ip`
 
