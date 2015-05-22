@@ -1,2 +1,2 @@
-Tony Yates
-Dan Sheldon
+Tony Yates <tony@nhs.net>
+Daniel Sheldon <daniel.sheldon@digital.cabinet-office.gov.uk>
