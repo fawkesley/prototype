@@ -20,4 +20,4 @@ Thunmbs.db
 
 # Folders to ignore
 *node_modules
-*public
+*dist
