@@ -31,6 +31,9 @@ gulp.task('watch', function () {
 gulp.task('copy', function() {
    gulp.src('public/images/*')
    .pipe(gulp.dest('dist/images'));
+   gulp.src('public/fonts/*')
+   .pipe(gulp.dest('dist/fonts'));
+
    gulp.src('public/javascripts/*')
    .pipe(gulp.dest('dist/javascripts'));
 });
@@ -49,7 +52,7 @@ gulp.task('parse', function () {
   var defaultData = {
     url: 'http://test.org/',
   };
-  var handlebarOptions = {};
+  var handlebarOptions = {        batch : ['views/layouts/partials'] };
   return gulp.src(['views/layouts/*.hbs'])
     .pipe(data(function (file) {
       return require(metadataFile(file.path));

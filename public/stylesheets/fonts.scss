@@ -4,26 +4,13 @@
 
 @font-face {
   font-family: 'nta';
-  src: url('/fonts/frutiger.woff' %>) format('woff');
+  src: url('/fonts/frutiger-light.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'nta';
-  src: url('/fonts/frutiger-bold.woff' %>) format('woff');
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: 'ntatabularnumbers';
-  src: url(<%= asset_data_uri 'fonts/NTATabularNumbers-Light.woff' %>) format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'ntatabularnumbers';
-  src: url(<%= asset_data_uri 'fonts/NTATabularNumbers-Bold.woff' %>) format('woff');
+  src: url('/fonts/frutiger-bold.woff') format('woff');
   font-weight: bold;
 }

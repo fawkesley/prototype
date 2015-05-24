@@ -51,6 +51,7 @@ $is-print: false !default;
   $font-size: 48px;
   $font-size-640: 32px;
   $font-size-print: 18pt;
+
   @include _core-font-generator($font-size, $font-size-640, $font-size-print, $line-height, $line-height-640, $tabular-numbers, $font-weight);
 }
 
@@ -142,7 +143,6 @@ $is-print: false !default;
 
 @mixin heading-48($tabular-numbers: false) {
   @include core-48($tabular-numbers: $tabular-numbers);
-
   padding-top: 10px;
   padding-bottom: 10px;
 

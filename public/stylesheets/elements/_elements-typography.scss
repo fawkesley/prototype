@@ -70,6 +70,7 @@ main {
 // Headings
 .heading-xlarge {
   @include bold-48();
+  letter-spacing: -30px;
 
   margin-top: em(15, 32);
   margin-bottom: em(30, 32);
@@ -188,5 +189,3 @@ code {
   border: 1px solid $border-colour;
   padding: 3px 7px;
 }
-
-
