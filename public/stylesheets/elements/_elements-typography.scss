@@ -70,7 +70,7 @@ main {
 // Headings
 .heading-xlarge {
   @include bold-48();
-  letter-spacing: -30px;
+  letter-spacing: -2px;
 
   margin-top: em(15, 32);
   margin-bottom: em(30, 32);
@@ -91,6 +91,7 @@ main {
 
 .heading-large {
   @include bold-36();
+  letter-spacing: -1px;
 
   margin-top: em(25, 24);
   margin-bottom: em(10, 24);

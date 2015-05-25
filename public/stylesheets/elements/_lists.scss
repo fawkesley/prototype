@@ -17,7 +17,7 @@ ol {
 .list-number {
   list-style-type: decimal;
   padding-left: 20px;
-  
+
   @include ie-lte(7) {
     padding-left: 28px;
   }
@@ -33,4 +33,3 @@ ol {
 .list-number li {
   margin-bottom: 5px;
 }
-

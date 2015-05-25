@@ -24,6 +24,8 @@ gulp.task('watch', function () {
   gulp.watch('public/javascripts/*.js', ['copy']);
   gulp.watch('public/images/**', ['copy']);
   gulp.watch('views/layouts/**', ['parse']);
+  gulp.watch('data/**', ['parse']);
+
   // gulp.watch('public/**', ['restart']);
 
 });
