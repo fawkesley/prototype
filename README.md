@@ -15,7 +15,7 @@ This a place to store experiments on the future NHS.UK.
 `boot2docker init`
 
 ###Get Docker IP Address
-`docker ip`
+`boot2docker ip`
 
 returns
 
